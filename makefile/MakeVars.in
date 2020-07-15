@@ -1,0 +1,10 @@
+# hwtype  = intel
+# ostype  = linux
+# objtype = debug | release  
+# orbtype  = mico
+# uarchtype = .i686 | x86_64
+
+objtype = release
+uarchtype = x86_64
+
+objdir = bin/$(objtype)/$(uarchtype)
